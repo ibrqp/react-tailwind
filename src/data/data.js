@@ -5,6 +5,9 @@ import gambar4 from "../assets/unnamed.jpg"
 import gambar5 from "../assets/unnamed.jpg"
 import gambar6 from "../assets/unnamed.jpg"
 
+import gambar7 from "../assets/img.jpg"
+
+
 
 export const listProyek = [
     {
@@ -57,6 +60,54 @@ export const listProyek = [
         kategori: "gatau",
         link: "gatau",
         dad: "700"
+    }
+]
+
+export const listPekerjaan = [
+    {
+        id: "1",
+        namaKerja: "Fullstack Developer",
+        tempat: "Nesabatechno",
+        lokasi: "Pasuruan, East Java",
+        tahun: "April 2023 - Agustus 2024",
+        gambar: gambar7
+    },
+    {
+        id: "2",
+        namaKerja: "Fullstack Developer",
+        tempat: "Nesabatechno",
+        lokasi: "Pasuruan, East Java",
+        tahun: "April 2023 - Agustus 2024",
+        gambar: gambar7
+    }
+
+
+]
+
+export const listKomentar = [
+    {
+        id: "1",
+        nama: "Ali",
+        gambar: gambar7,
+        pekerjaan: "CEO ITK Industries",
+        isiKomentar: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quosrepellat earum illum! Voluptate, reprehenderit officia perspiciatis modinulla nesciunt..." 
+
+    },
+    {
+        id: "2",
+        nama: "Ali",
+        gambar: gambar7,
+        pekerjaan: "CEO ITK Industries",
+        isiKomentar: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quosrepellat earum illum! Voluptate, reprehenderit officia perspiciatis modinulla nesciunt..." 
+
+    },
+    {
+        id: "3",
+        nama: "Ali",
+        gambar: gambar7,
+        pekerjaan: "CEO ITK Industries",
+        isiKomentar: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quosrepellat earum illum! Voluptate, reprehenderit officia perspiciatis modinulla nesciunt..." 
+
     }
 ]
 
