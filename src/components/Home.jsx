@@ -9,7 +9,7 @@ const Home = () => {
     const [selectedProyek, setSelectedProyek] = useState(null)
 
     return (
-        <div className="container mx-auto px-6 md:px-20 lg:px-65 flex flex-col justify-center ">
+        <div className="container mx-auto px-6 md:px-20 lg:px-35 flex flex-col justify-center ">
             <div className='mt-15 text-[14px] '>
                 <p className='text-gray-400'>Software Developer <span className='text-black'>Muchammad Ibrahim Al Amin</span></p>
                 <p className='mt-2 text-gray-400'>Currently at <span className='text-black'>Nesabatechno</span></p>
@@ -23,13 +23,13 @@ const Home = () => {
             <div className='pt-10' >
                 <ul className="flex flex-wrap items-center gap-4 text-[15px] md:gap-6 lg:gap-8 text">
                     <li className='text-gray-500 hover:text-black' >
-                        <a className='' href="#">Twitter / X</a>
+                        <a className='' href="https://x.com/ibrawsl" target='_blank'>Twitter / X</a>
                     </li>
                     <li className='text-gray-500 hover:text-black' >
-                        <a href="#">Linkedin</a>
+                        <a href="https://www.linkedin.com/in/muchammad-ibrahim-al-amin-458a28309/" target='_blank'>Linkedin</a>
                     </li>
                     <li className='text-gray-500 hover:text-black' >
-                        <a href="#">Github</a>
+                        <a href="https://github.com/ibrqp" target='_blank'>Github</a>
                     </li>
                     <li className='text-gray-500 hover:text-black' >
                         <a href="#">Github</a>
