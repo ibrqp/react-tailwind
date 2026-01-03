@@ -19,7 +19,7 @@ export const listProyek = [
         tahun: "2025",
         link: "gatau",
         deskripsi: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi beatae molestias nulla corporis sunt consequuntur esse est eaque modi consequatur nobis necessitatibus tempore iste sit perspiciatis voluptas magnam nesciunt, sapiente cum corrupti! Perspiciatis est ex voluptates mollitia nisi. Placeat magni veritatis accusantium in quas, officiis, obcaecati nulla velit, modi fugit ad! Incidunt vel distinctio beatae neque aliquam laboriosam dolorum dicta earum nobis possimus recusandae deleniti, iste omnis molestiae, delectus accusantium expedita eius repellendus doloremque repellat? Placeat perferendis in labore velit laborum architecto, porro inventore delectus ipsum sunt aliquid voluptate accusantium consequatur nostrum quaerat quas. Vel exercitationem officia perferendis quae at!",
-        dad: "200"
+        dad: "300"
     },
     {
         id: "2",
@@ -27,7 +27,7 @@ export const listProyek = [
         nama: "-",
         kategori: "gatau",
         link: "gatau",
-        dad: "300"
+        dad: "400"
     },
     {
         id: "3",

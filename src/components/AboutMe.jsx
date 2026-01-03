@@ -71,7 +71,7 @@ const AboutMe = () => {
       </div>
       <div className='flex flex-col items-center md:flex-row justify-between gap-3 text-[12px] text-gray-500 mb-50'>
           <p className="max-w-md">All designs on this website were created by Helin Kıl. Some of the featured works are conceptual pieces and may not represent real products.</p>
-          <p className="md:text-right">© 2025 Helin Kil. All rights reserved.</p>
+          <p className="md:text-right">© 2025 Ibrahim. All rights reserved.</p>
       </div>
 
       

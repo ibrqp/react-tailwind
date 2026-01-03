@@ -1,6 +1,6 @@
 export default function Navbar({ page, setPage }) {
 
-    const menus = ["Home", "About Me", "Sketches"];
+    const menus = ["Home", "About Me"];
 
     return (
         <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 w-full flex justify-center">
@@ -22,15 +22,15 @@ export default function Navbar({ page, setPage }) {
                     </button>
                 ))}
 
-                <button
-                    onClick={() => setPage("Contact")}
+                <a
+                    href="mailto:muchammadibrahimalamin@gmail.com"
                     className={`px-2 py-2 m-1 text-sm rounded-lg transition
             ${page === "Contact"
                             ? "text-white bg-[#4a4a4a] border border-white/20"
                             : "text-white bg-[#6c6c6c] hover:bg-white hover:text-black"}`}
                 >
                     Contact me
-                </button>
+                </a>
             </nav>
         </div>
     );
