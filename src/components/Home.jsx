@@ -25,8 +25,17 @@ const Home = () => {
                     Software Developer <span className="text-black">Muchammad Ibrahim Al Amin</span>
                 </p>
                 <p className="mt-2 text-gray-400 animate__animated animate__fadeIn animate__delay-1s">
-                    Currently at <span className="text-black">Nesabatechno</span>
-                </p>
+  Currently at{" "}
+  <a
+    href="https://nesabatechno.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-black hover:underline"
+  >
+    Nesabatechno
+  </a>
+</p>
+
             </div>
 
             {/* Avatar */}
